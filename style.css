@@ -115,7 +115,6 @@ h3.my-profession {
   letter-spacing: 1px;
   font-family: sans-serif;
   letter-spacing: 0.5;
-  
 }
 .btn:hover {
   transform: scale(1.05);
@@ -312,15 +311,12 @@ h3.my-profession {
   color: var(--text-black-900);
   font-family: sans-serif;
   letter-spacing: 0.3;
-  
-  
 }
 .about-text h3 span {
   color: var(--skin-color);
 }
 
 .about-text p {
-  
   font-family: sans-serif;
   font-size: 16px;
   line-height: 25px;
@@ -342,7 +338,7 @@ h3.my-profession {
   flex: 0 0 50%;
   max-width: 50%;
 }
-.info-item p{
+.info-item p {
   font-family: sans-serif;
   letter-spacing: 0.2;
   display: block;
@@ -352,30 +348,29 @@ h3.my-profession {
   color: var(--text-black-900);
   border-bottom: 1px solid var(--bg-black-50);
 }
-.info-item p span{
+.info-item p span {
   font-weight: 400;
   color: var(--bg-black-700);
   margin-left: 4px;
   display: inline-block;
 }
-.personal-info .buttons{
+.personal-info .buttons {
   margin-top: 30px;
 }
-.personal-info .buttons .btn{
+.personal-info .buttons .btn {
   margin-top: 10px;
   margin-right: 15px;
   letter-spacing: 1px;
-
 }
-.personal-info .buttons .btn1{
+.personal-info .buttons .btn1 {
   padding: 15px 40px;
-    font-family: sans-serif;
+  font-family: sans-serif;
 }
-.skill-item{
+.skill-item {
   max-width: 100%;
   flex: 0 0 100%;
 }
-.skill-item h5{
+.skill-item h5 {
   line-height: 40px;
   font-weight: 600;
   font-size: 16px;
@@ -384,14 +379,14 @@ h3.my-profession {
   margin-bottom: 20px;
   font-family: sans-serif;
 }
-.skill-item .progress{
-background-color: var(--bg-black-50);
-height: 7px;
-border-radius:4px ;
-width: 100%;
-position: relative;
+.skill-item .progress {
+  background-color: var(--bg-black-50);
+  height: 7px;
+  border-radius: 4px;
+  width: 100%;
+  position: relative;
 }
-.skill-item .progress .progress-in{
+.skill-item .progress .progress-in {
   position: absolute;
   left: 0;
   right: 0;
@@ -399,8 +394,7 @@ position: relative;
   border-radius: 4px;
   background-color: var(--skin-color);
 }
-.skill-item .skill-percent{
-  
+.skill-item .skill-percent {
   position: absolute;
   top: -40px;
   right: 0;
@@ -412,52 +406,50 @@ position: relative;
 /* SKILL contact css emd */
 /* education section start css */
 .about .about-content .education,
-.about .about-content .education2{
+.about .about-content .education2 {
   flex: 0 0 50%;
   max-width: 50%;
   margin-top: 40px;
-  
-  
 }
-.about .about-content h3.title{
+.about .about-content h3.title {
   font-size: 24px;
   margin-bottom: 30px;
   font-weight: 700;
   color: var(--text-black-900);
 }
-.about .about-content .timeline-box{
-flex: 0 0 100%;
-max-width: 100%;
+.about .about-content .timeline-box {
+  flex: 0 0 100%;
+  max-width: 100%;
 }
-.about .about-content .timeline{
-background-color: var(--bg-black-100);
-padding: 30px 15px;
-border: 1px solid var(--bg-black-50);
-border-radius: 10px;
-width: 100%;
-position: relative;
+.about .about-content .timeline {
+  background-color: var(--bg-black-100);
+  padding: 30px 15px;
+  border: 1px solid var(--bg-black-50);
+  border-radius: 10px;
+  width: 100%;
+  position: relative;
 }
-.shadow-dark{
+.shadow-dark {
   box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
 }
-.timeline-item{
+.timeline-item {
   position: relative;
   padding-left: 37px;
   padding-bottom: 50px;
 }
-.timeline-item:last-child{
+.timeline-item:last-child {
   padding-bottom: 0;
 }
-.timeline-item::before{
- content: "";
- width: 1px;
- position: absolute;
- left: 7px;
- top: 0;
- background-color: var(--skin-color);
- height: 100%;
+.timeline-item::before {
+  content: "";
+  width: 1px;
+  position: absolute;
+  left: 7px;
+  top: 0;
+  background-color: var(--skin-color);
+  height: 100%;
 }
-.circle-dot{
+.circle-dot {
   position: absolute;
   left: 0;
   top: 0;
@@ -466,26 +458,25 @@ position: relative;
   border-radius: 50%;
   background-color: var(--skin-color);
 }
-.timeline-date{
+.timeline-date {
   font-family: sans-serif;
   font-weight: 500;
   font-size: 14px;
   margin-bottom: 12px;
   color: var(--text-black-900);
 }
-.fa{
+.fa {
   margin-right: 5px;
 }
-.timeline-title{
+.timeline-title {
   display: block;
   margin-bottom: 15px;
   font-weight: 700;
   font-size: 20px;
   color: var(--text-black-900);
   text-transform: capitalize;
-  
 }
-.timeline-text{
+.timeline-text {
   line-height: 25px;
   font-size: 15px;
   text-align: justify;
@@ -495,3 +486,98 @@ position: relative;
 /* education section end css */
 
 /* About section css end*/
+/* services section start  */
+.icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 30px;
+  text-align: center;
+}
+.service-item-main:hover .icon {
+  background: var(--skin-color);
+  box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+}
+.icon .fa {
+  font-size: 40px;
+  line-height: 60px;
+  color: var(--skin-color);
+  transition: all 0.3s ease;
+}
+.service-item-main:hover .icon .fa {
+  font-size: 25px;
+  color: #ffff;
+  margin: auto;
+
+}
+.service-item {
+  margin-bottom: 30px;
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+}
+.service-item-main {
+  background-color: var(--bg-black-100);
+  border: 1px solid var(--bg-black-50);
+  border-radius: 10px;
+  padding: 30px 15px;
+  text-align: center;
+  transition: all 0.35 ease;
+}
+.service-item-main:hover {
+  box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+}
+.service-item-main h4 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.service-item-main p {
+  font-size: 16px;
+  color: var(--text-black-900);
+  line-height: 25px;
+  font-weight: 500;
+}
+.service .container {
+  padding-bottom: 40px;
+}
+/* services section end  */
+/* prjects section css start*/
+.project-heading{
+flex: 0 0 100%;
+max-width: 100%;
+margin-bottom: 40px;
+}
+.project-heading h2{
+  color: var(--text-black-900);
+  font-weight: 500;
+
+}
+.project-item{
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+  margin-bottom: 30px;
+  transition: .5s;
+}
+.project-item-main{
+  border: 6px solid var(--bg-black-100);
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.project-item:hover{
+  transform: scale(1.1);
+  z-index: 1;
+  
+}
+.project-img img{
+  width: 100%;
+  
+}
+/* prjects section css end */
+
