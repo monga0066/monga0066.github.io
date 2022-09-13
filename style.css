@@ -348,11 +348,15 @@ h3.my-profession {
   color: var(--text-black-900);
   border-bottom: 1px solid var(--bg-black-50);
 }
-.info-item p span {
+.info-item p a {
   font-weight: 400;
   color: var(--bg-black-700);
   margin-left: 4px;
   display: inline-block;
+}
+.info-item p a .fa {
+  margin-right: 5px;
+  color: var(--text-black-900);
 }
 .personal-info .buttons {
   margin-top: 30px;
@@ -405,12 +409,16 @@ h3.my-profession {
 }
 /* SKILL contact css emd */
 /* education section start css */
+.buttons .fa {
+  margin-left: 10px;
+}
 .about .about-content .education,
 .about .about-content .education2 {
   flex: 0 0 50%;
   max-width: 50%;
   margin-top: 40px;
 }
+
 .about .about-content h3.title {
   font-size: 24px;
   margin-bottom: 30px;
@@ -470,7 +478,7 @@ h3.my-profession {
 }
 .timeline-title {
   display: block;
-  margin-bottom: 15px;
+  margin-bottom: 2px;
   font-weight: 700;
   font-size: 20px;
   color: var(--text-black-900);
@@ -480,14 +488,30 @@ h3.my-profession {
   line-height: 25px;
   font-size: 15px;
   text-align: justify;
-  font-family: sans-serif;
-  color: var(--text-black-700);
+  color: var(--text-black-900);
 }
+.second {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 19px;
+  color: var(--text-black-900);
+  text-transform: capitalize;
+}
+.masai-1 {
+  display: flex;
+  gap: 20px;
+}
+.li {
+  margin-bottom: 5px;
+  color: var(--text-black-900);
+}
+
 /* education section end css */
 
 /* About section css end*/
 /* services section start  */
-.icon {
+.service-item-main .icon {
   width: 60px;
   height: 60px;
   border-radius: 50%;
@@ -500,7 +524,6 @@ h3.my-profession {
   box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
   cursor: pointer;
   transition: all 0.3s ease;
-
 }
 .icon .fa {
   font-size: 40px;
@@ -512,7 +535,6 @@ h3.my-profession {
   font-size: 25px;
   color: #ffff;
   margin: auto;
-
 }
 .service-item {
   margin-bottom: 30px;
@@ -547,37 +569,67 @@ h3.my-profession {
 }
 /* services section end  */
 /* prjects section css start*/
-.project-heading{
-flex: 0 0 100%;
-max-width: 100%;
-margin-bottom: 40px;
+.button-project {
+  margin: auto;
+  display: flex;
+  gap: 15px;
+  text-align: center;
+  max-width: 50%;
 }
-.project-heading h2{
+.button-project .icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: block;
+  text-align: center;
+  
+}
+.button-project .icon .fa {
+  font-size: 40px;
+  line-height: 60px;
+  color: var(--skin-color);
+  transition: all 0.3s ease;
+}
+.project-item:hover .icon {
+  background: var(--skin-color);
+  box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.project-item:hover .icon .fa {
+  font-size: 25px;
+  color: #ffff;
+  margin: auto;
+  
+}
+
+.project-heading {
+  flex: 0 0 100%;
+  max-width: 100%;
+  margin-bottom: 40px;
+}
+.project-heading h2 {
   color: var(--text-black-900);
   font-weight: 500;
-
 }
-.project-item{
+.project-item {
   flex: 0 0 33.33%;
   max-width: 33.33%;
   margin-bottom: 30px;
-  transition: .5s;
+  transition: 0.5s;
 }
-.project-item-main{
+.project-item-main {
   border: 6px solid var(--bg-black-100);
   border-radius: 10px;
   overflow: hidden;
   cursor: pointer;
 }
 
-.project-item:hover{
+.project-item:hover {
   transform: scale(1.1);
   z-index: 0;
-  
 }
-.project-img img{
+.project-img img {
   width: 100%;
-  
 }
 /* prjects section css end */
-
