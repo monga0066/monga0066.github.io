@@ -6,7 +6,13 @@
   --text-black-900: #302e4d;
   --bg-black-700: #504e70;
 }
-
+body.dark{
+  --bg-black-900: #151515;
+  --bg-black-100: #222222;
+  --bg-black-50: #393939;
+  --text-black-900: #ffffff;
+  --bg-black-700:#e9e9e9;
+}
 body {
   line-height: 1.5;
   font-size: 16px;
@@ -34,15 +40,46 @@ ul {
   display: block;
   padding: 0 30px;
   opacity: 1;
+  position: fixed;
+  left: 270px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  overflow-y:auto;
+  overflow-x: hidden;
+  transition: all 0.3s ease;
+
 }
+.section.back-section{
+  z-index: 1;
+}
+.section.active{
+  z-index: 2;
+  opacity: 1;
+  animation: slideSection 1s ease;
+}
+
+@keyframes slideSection {
+  0%
+  {
+    transform: translateX(100%);
+  }
+  100%
+  {
+    transform: translateX(0%);
+  }
+  
+}
+
 .home {
   color: var(--text-black-900);
   display: flex;
   min-height: 100vh;
 }
-.main-content {
+/* .main-content {
   padding-left: 270px;
-}
+} */
 .home-img img {
   height: 400px;
   margin: auto;
@@ -150,6 +187,7 @@ h3.my-profession {
   justify-content: centre;
   align-items: center;
   border-right: var(--bg-black-50);
+  transition: all 0.3s ease;
 }
 .aside .logo {
   position: absolute;
@@ -204,6 +242,19 @@ h3.my-profession {
   align-items: center;
   justify-content: center;
   background-color: var(--bg-black-100);
+  transition: all 0.3s ease;
+
+}
+.aside .nav-toggle.open span{
+  background-color: transparent;
+}
+.aside .nav-toggle.open span::before{
+  transform: rotate(45deg);
+  top: 0;
+}
+.aside .nav-toggle.open span::after{
+  transform: rotate(-45deg);
+  top: 0;
 }
 .aside .nav-toggle span {
   height: 2px;
@@ -557,6 +608,8 @@ h3.my-profession {
   margin-bottom: 15px;
   font-weight: 700;
   text-transform: capitalize;
+  color: var(--text-black-900);
+
 }
 .service-item-main p {
   font-size: 16px;
@@ -724,9 +777,21 @@ textarea.form-control{
   .aside{
     left: -270px;
   }
-  .main-content{
-    padding-left: 0;
-
+  .aside.open{
+    left: 0;
+  }
+  .aside .nav-toggle{
+    display: flex;
+    left: 30px;
+  }
+  .aside .nav-toggle.open{
+    left: 300px;
+  }
+  .section{
+    left: 0;
+  }
+  .section.open{
+    left: 270px;
   }
   .info-item p a{
   display: block;
@@ -741,6 +806,9 @@ textarea.form-control{
     flex: 0 0 50%;
     max-width: 50%;
   }
+  .project .project-item,
+  .about .about-content .education,
+  .about .about-content .education2,
   .home .home-info{
     flex: 0 0 100%;
     max-width: 100%;
@@ -756,7 +824,26 @@ textarea.form-control{
   }
 }
 
+@media (max-width:767px){
+  .contact .contact-form .col-6,
+  .contact .contact-item-info,
+.about .about-content .skills,
+.service .service-item,
+.project .project-item,
+.about .about-content .personal-info{
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+.button-project{
+  margin: auto;
+  margin-top: 10px;
+  max-width: 17%;
+  display: flex;
+  justify-content: space-around;
+  /* border: 1px solid red; */
+}
 
+}
 
 
 
