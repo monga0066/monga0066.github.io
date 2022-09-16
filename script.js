@@ -49,7 +49,7 @@ function showSection(element){
   document.querySelector("#"+target).classList.add("active")
 
 }
-function updateNav(){
+function updateNav(element){
 for(let i=0;i<navlist.length;i++){
   navlist[i].querySelector("a").classList.remove("active")
 

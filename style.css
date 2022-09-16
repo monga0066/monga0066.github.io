@@ -780,6 +780,9 @@ textarea.form-control{
   .aside.open{
     left: 0;
   }
+  .section .container{
+    padding-top: 70px;
+  }
   .aside .nav-toggle{
     display: flex;
     left: 30px;
