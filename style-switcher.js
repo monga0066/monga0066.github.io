@@ -9,6 +9,7 @@ toogle.addEventListener("click",()=>{
 ////////hide style swicher scroll tym
 
 window.addEventListener("scroll",()=>{
+  
   if(document.querySelector(".style-switch").classList.contains("open"))
   {
     document.querySelector(".style-switch").classList.remove("open")
