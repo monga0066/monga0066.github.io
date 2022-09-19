@@ -1,19 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@400;500;600;700&display=swap");
 :root {
- 
-
-  --bg-black-900: #151515;
-  --bg-black-100: #222222;
-  --bg-black-50: #393939;
-  --text-black-900: #ffffff;
-  --bg-black-700:#e9e9e9;
-}
-body.dark{
   --bg-black-900: #f2f2fc;
   --bg-black-100: #fdf9ff;
   --bg-black-50: #e8dfec;
   --text-black-900: #302e4d;
   --bg-black-700: #504e70;
+
+ 
+}
+body.dark{
+  --bg-black-900: #151515;
+  --bg-black-100: #222222;
+  --bg-black-50: #393939;
+  --text-black-900: #ffffff;
+  --bg-black-700:#e9e9e9;
 }
 body {
   line-height: 1.5;
@@ -693,14 +693,17 @@ h3.my-profession {
   width: 100%;
 }
 .info-project-h4{
-  
-  max-width: 50%;
-  margin-top: 5px;
-}
-.info-project-h41{
-  
+  margin: auto;
   max-width: 60%;
   margin-top: 5px;
+  margin-bottom: 5px;
+}
+.info-project-h41{
+  margin: auto;
+  max-width: 70%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
 }
 .info-project-h4 h4,.info-project-h41 h4 {
   
@@ -805,7 +808,29 @@ textarea.form-control{
 /* contact section end css */
 
 /* ---use of media start css */
+@media (max-width:1280px){
+  .info-project-h4{
+    margin: auto;
+    max-width: 85%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+  
+    
+  }
+  .info-project-h41{
+    margin: auto;
+    max-width: 90%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
 
+  
+  }
+  .info-project-h41 h4,.info-project-h4 h4{
+    text-align: center;
+  }
+}
 @media (max-width:1199px){
   .aside{
     left: -270px;
@@ -835,7 +860,25 @@ textarea.form-control{
 }
 }
 
+
 @media (max-width:991px){
+  .info-project-h4{
+    margin: auto;
+    max-width: 25%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+  }
+  .info-project-h41{
+    margin: auto;
+    max-width: 30%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  
+  }
+  .info-project-h41 h4,.info-project-h4 h4{
+    text-align: center;
+  }
   .contact .contact-item-info,
   .project-item,
   .service-item{
@@ -856,11 +899,12 @@ textarea.form-control{
   .button-project{
     margin: auto;
     margin-top: 10px;
-    max-width: 25%;
+    max-width: 10%;
+    
   }
 }
 
-@media (max-width:767px){
+@media (max-width:768px){
   .contact .contact-form .col-6,
   .contact .contact-item-info,
 .about .about-content .skills,
@@ -878,12 +922,120 @@ textarea.form-control{
   justify-content: space-around;
   /* border: 1px solid red; */
 }
+.info-project-h4{
+  margin: auto;
+  max-width: 30%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+  
+}
+.info-project-h41{
+  margin: auto;
+  max-width: 35%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+}
+.info-project-h41 h4,.info-project-h4 h4{
+  text-align: center;
+}
 
 }
 
 
+@media (max-width:441px){
+  .info-project-h4{
+    margin: auto;
+    max-width: 65%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+  
+    
+  }
+  .info-project-h41{
+    margin: auto;
+    max-width: 70%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
 
+  
+  }
+  .info-project-h41 h4,.info-project-h4 h4{
+    text-align: center;
+  }
+}
+@media (max-width:364px){
+  .info-project-h4{
+    margin: auto;
+    max-width: 75%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+  
+    
+  }
+  .info-project-h41{
+    margin: auto;
+    max-width: 80%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
 
+  
+  }
+  .info-project-h41 h4,.info-project-h4 h4{
+    text-align: center;
+  }
+}
+@media (max-width:330px){
+  .info-project-h4{
+    margin: auto;
+    max-width: 85%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+  
+    
+  }
+  .info-project-h41{
+    margin: auto;
+    max-width: 90%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+
+  
+  }
+  .info-project-h41 h4,.info-project-h4 h4{
+    text-align: center;
+  }
+}
+@media (max-width:300px){
+  .info-project-h4{
+    margin: auto;
+    max-width: 95%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+  
+    
+  }
+  .info-project-h41{
+    margin: auto;
+    max-width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+
+  
+  }
+  .info-project-h41 h4,.info-project-h4 h4{
+    text-align: center;
+  }
+}
 
 
 /* ---use of media end css */
