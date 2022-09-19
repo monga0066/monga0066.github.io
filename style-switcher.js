@@ -44,10 +44,10 @@ day.addEventListener("click",()=>{
 window.addEventListener("load",()=>{
   if(document.body.classList.contains("dark"))
   {
-    day.querySelector("i").classList.add("fa-sun")
+    day.querySelector("i").classList.add("fa-moon")
   }
   else{
-    day.querySelector("i").classList.add("fa-moon")
+    day.querySelector("i").classList.add("fa-sun")
 
   }
 })
