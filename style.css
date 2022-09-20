@@ -694,15 +694,18 @@ h3.my-profession {
 }
 .info-project-h4{
   margin: auto;
-  max-width: 60%;
+  max-width: 65%;
   margin-top: 5px;
   margin-bottom: 5px;
+  
+
 }
 .info-project-h41{
   margin: auto;
   max-width: 70%;
   margin-top: 5px;
   margin-bottom: 5px;
+  
 
 }
 .info-project-h4 h4,.info-project-h41 h4 {
@@ -808,6 +811,26 @@ textarea.form-control{
 /* contact section end css */
 
 /* ---use of media start css */
+@media (max-width:1326px){
+  .info-project-h4{
+    margin: auto;
+    max-width: 85%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+  
+    
+  }
+  .info-project-h41{
+    margin: auto;
+    max-width: 90%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+    
+
+  
+  }
 @media (max-width:1280px){
   .info-project-h4{
     margin: auto;
@@ -824,12 +847,11 @@ textarea.form-control{
     margin-top: 5px;
     margin-bottom: 5px;
     
+    
 
   
   }
-  .info-project-h41 h4,.info-project-h4 h4{
-    text-align: center;
-  }
+  
 }
 @media (max-width:1199px){
   .aside{
@@ -1039,3 +1061,4 @@ textarea.form-control{
 
 
 /* ---use of media end css */
+}
