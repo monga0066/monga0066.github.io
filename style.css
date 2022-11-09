@@ -904,36 +904,7 @@ textarea.form-control{
   margin-left: 0;
   
 }
-.aside .nav{
-  position: fixed;
-  background-color: var(--bg-black-100);
-  height: 100vh;
-  width: 100%;
-  left: -100%;
-  top: 0;
-  text-align: center;
-  padding-top: 40px;
-}
-.menu-btn{
-  display: block;
-  z-index: 999;
-}
-.aside .nav li{
-  display: block;
-  
-}
-.aside .nav.active{
-  left: 0;
-}
-.menu-btn i.active:before{
-  content: "\f00d";
-}
 
-.aside .nav li a{
-  display: inline-block;
-  margin:  20px 0;
-  font-size: 24px;
-}
 }
 @media (max-width:1029px){
   .home .home-img{
@@ -947,6 +918,36 @@ textarea.form-control{
   .aside .logo {
     margin-left: -90px;
   
+  }
+  .aside .nav{
+    position: fixed;
+    background-color: var(--bg-black-100);
+    height: 100vh;
+    width: 100%;
+    left: -100%;
+    top: 0;
+    text-align: center;
+    padding-top: 40px;
+  }
+  .menu-btn{
+    display: block;
+    z-index: 999;
+  }
+  .aside .nav li{
+    display: block;
+    
+  }
+  .aside .nav.active{
+    left: 0;
+  }
+  .menu-btn i.active:before{
+    content: "\f00d";
+  }
+  
+  .aside .nav li a{
+    display: inline-block;
+    margin:  20px 0;
+    font-size: 24px;
   }
 }
 
