@@ -1,7 +1,7 @@
 .style-switch {
   position: fixed;
   right: 0;
-  top: 20px;
+  top: 85px;
   padding: 15px;
   width: 200px;
   border: 1px solid var(--bg-black-50);
@@ -60,11 +60,11 @@
 }
 
 .style-switch .color-1 {
-  background: #ec1839;
+  background: #fa5b0f;
 }
 
 .style-switch .color-2 {
-  background: #fa5b0f;
+  background: #ec1839
 }
 
 .style-switch .color-3 {

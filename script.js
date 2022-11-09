@@ -70,23 +70,29 @@ document.querySelector(".hire-me").addEventListener("click",function()
 })
 // //////////////////////togle btn////////////////////
 
-const toglebtn=document.querySelector(".nav-toggle"),
+// const toglebtn=document.querySelector(".nav-toggle"),
 
-aside=document.querySelector(".aside")
+// aside=document.querySelector(".aside")
 
-toglebtn.addEventListener("click",()=>
-{
-  asidetoglebtn()
+// toglebtn.addEventListener("click",()=>
+// {
+//   asidetoglebtn()
+// })
+
+// function asidetoglebtn()
+// {
+//   aside.classList.toggle("open")
+
+//   toglebtn.classList.toggle("open")
+
+//   for(let i=0;i<allsection.length;i++)
+//   {
+//     allsection[i].classList.toggle("open")
+//   }
+// }
+$(document).ready(function(){
+  $(".menu-btn").click(function(){
+    $('.aside .nav').toggleClass('active')
+    $('.menu-btn i').toggleClass('active')
+  })
 })
-
-function asidetoglebtn()
-{
-  aside.classList.toggle("open")
-
-  toglebtn.classList.toggle("open")
-
-  for(let i=0;i<allsection.length;i++)
-  {
-    allsection[i].classList.toggle("open")
-  }
-}
