@@ -218,57 +218,7 @@ h3.my-profession {
   top: 5;
   left: 238;
 }
-  /* .aside .nav-toggle {
-  height: 40px;
-  width: 45px;
-  border: 1px solid var(--bg-black-50);
-  cursor: pointer;
-  position: fixed;
-  left: 300px;
-  top: 20px;
-  border-radius: 5px;
-  display: none;
-  align-items: center;
-  justify-content: center;
  
-
- }
-.aside .nav-toggle.open span{
-  background-color: transparent;
-}
-.aside .nav-toggle.open span::before{
-  transform: rotate(45deg);
-  top: 0;
-}
-.aside .nav-toggle.open span::after{
-  transform: rotate(-45deg);
-  top: 0;
-}
-.aside .nav-toggle span {
-  height: 2px;
-  width: 18px;
-  background: var(--skin-color);
-  display: inline-block;
-  position: relative;
-}
-.aside .nav-toggle span::before {
-  content: "";
-  height: 2px;
-  width: 18px;
-  background: var(--skin-color);
-  position: absolute;
-  top: -6px;
-  left: 0;
-}
-.aside .nav-toggle span::after {
-  content: "";
-  height: 2px;
-  width: 18px;
-  background: var(--skin-color);
-  position: absolute;
-  bottom: -6px;
-  left: 0;
-}   */
 .menu-btn{
   color: var(--skin-color);
   font-size: 23px;
@@ -279,11 +229,28 @@ h3.my-profession {
 .aside .nav {
   padding-top:25px ;
   padding-bottom: 25px;
+  margin-right: 0;
+padding-left: 0;
+padding-right: 0;
+
+
+  
+  
 }
 
 .aside .nav li {
   list-style: none;
   display: inline-block;
+  
+
+}
+.cal{
+  font-size: 19px;
+  font-weight: 600;
+  display: block;
+  color: var(--text-black-900);
+  padding-right: 35px;
+  width: 80%;
 }
 
 .aside .nav li a {

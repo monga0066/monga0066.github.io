@@ -46,6 +46,14 @@
       title="color-5"
       disabled
     />
+    <link
+rel="stylesheet"
+href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css"
+/>
+    <script
+src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"
+>
+</script>
     <script
     src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <title>RAHUL KUMAR | Full Stack Web Developer</title>
@@ -65,6 +73,11 @@
           <li><a href="#skills" class="menu-btn">Skills</a></li>
           <li><a href="#project" class="menu-btn">Projects</a></li>
           <li><a href="#contact" class="menu-btn">Contact</a></li>
+          <li><a
+            href="https://drive.google.com/file/d/1qVNGeWQ3t--jw-u0D8cKVu6hy_5-pPXP/view?usp=sharing"
+            class="menu-btn"
+            >Resume<i class="fa fa-download"></i
+          ></a></li>
         </ul> 
         
          <div class="menu-btn">
@@ -654,7 +667,21 @@
                 <h2>Github</h2>
               </div>
             </div>
-
+            <div class="project-heading pad-15">
+              <h2>GitHub Stats:</h2>
+            </div>
+            <div>
+              <img src="https://github-readme-stats.vercel.app/api?username=monga0066&hide_border=false"/>
+              <img src="https://github-readme-streak-stats.herokuapp.com/?user=monga0066"/>
+              <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=monga0066&hide_border=false&layout=compact"/>
+              <br></br>
+              <div class="project-heading pad-15">
+                <h2>GitHub Activity:</h2>
+              </div>
+              <div  class="cal">
+                <!-- Loading stuff -->
+                
+              </div>
           </div>
 
 
@@ -816,5 +843,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
     <script src="./script.js"></script>
     <script src="./style-switcher.js"></script>
+    <script> new GitHubCalendar(".cal", "monga0066")</script>
   </body>
 </html>
