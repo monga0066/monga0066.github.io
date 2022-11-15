@@ -224,7 +224,10 @@ h3.my-profession {
   font-size: 23px;
   cursor: pointer;
   display: none;
-  
+ 
+}
+.MR{
+  margin-right: 40px;
 }
 .aside .nav {
   padding-top:25px ;
@@ -874,6 +877,9 @@ textarea.form-control{
 
 }
 @media (max-width:1029px){
+  .D{
+    display: none;
+  }
   .home .home-img{
     display: none;
   }
